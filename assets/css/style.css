@@ -33,5 +33,5 @@
 }
 
 .texto_colorido {
-    @apply text-[#49D40E]
+    @apply text-gray-400
 }
