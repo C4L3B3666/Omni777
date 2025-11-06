@@ -31,3 +31,7 @@
 .linha_bar {
     @apply bg-[#F5F5F5] h-[3px] w-10 rounded-full nth-[1]:w-5 nth-[2]:w-8
 }
+
+.texto_colorido {
+    @apply text-[#49D40E]
+}
