@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
 @theme {
-    --font-inter: "Inter", system-ui, sans-serif;
+    --font-roboto: "Roboto", system-ui, sans-serif;
     --font-museo: "Museo Moderno", system-ui, sans-serif;
 }
 
 .menu_opcao {
-    @apply text-[#F5F5F5] font-inter
+    @apply text-[#F5F5F5] font-roboto
 }
 
 .contentor_btns {
@@ -19,7 +19,7 @@
 }
 
 .btn {
-    @apply bg-[#49D40E] rounded-full px-3.5 py-0.5 text-[#F5F5F5] font-medium font-inter shadow-[0_0_15px_#49D40E] border border-[#49D40E] cursor-pointer
+    @apply bg-[#49D40E] rounded-full px-3.5 py-0.5 text-[#F5F5F5] font-medium font-roboto shadow-[0_0_15px_#49D40E] border border-[#49D40E] cursor-pointer
 }
 
 .btn_secundario {
