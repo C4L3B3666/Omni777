@@ -8,7 +8,6 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-gray-400: oklch(70.7% 0.022 261.325);
     --color-black: #000;
     --spacing: 0.25rem;
     --text-5xl: 3rem;
@@ -417,7 +416,7 @@
   }
 }
 .texto_colorido {
-  color: var(--color-gray-400);
+  color: #49D40E;
 }
 @property --tw-translate-x {
   syntax: "*";
