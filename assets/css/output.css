@@ -316,6 +316,9 @@
   .text-\[\#\] {
     color: #;
   }
+  .uppercase {
+    text-transform: uppercase;
+  }
   .underline {
     text-decoration-line: underline;
   }
